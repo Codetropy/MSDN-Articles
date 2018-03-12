@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Console", "Time
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Common", "TimeTracker.Common\TimeTracker.Common.csproj", "{6BC1BFEB-7ACA-489E-8063-3EEAA85B29DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.AzureFunctions", "TimeTracker.AzureFunctions\TimeTracker.AzureFunctions.csproj", "{7E8C630F-7F21-409A-9995-AA44859BD2FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{6BC1BFEB-7ACA-489E-8063-3EEAA85B29DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC1BFEB-7ACA-489E-8063-3EEAA85B29DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC1BFEB-7ACA-489E-8063-3EEAA85B29DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8C630F-7F21-409A-9995-AA44859BD2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8C630F-7F21-409A-9995-AA44859BD2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8C630F-7F21-409A-9995-AA44859BD2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8C630F-7F21-409A-9995-AA44859BD2FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
